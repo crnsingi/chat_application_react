@@ -59,3 +59,7 @@
     border: 1px solid #3b2a50 !important;
     background-color: white !important;
   }
+
+  .ce-chat-settings-container {
+    padding-top: 12px !important;
+  }
