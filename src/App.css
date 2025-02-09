@@ -32,3 +32,10 @@
     border-radius: 6px !important;
     border: 1px solid #3b2a50 !important;
   }
+
+  .ce-primary-button {
+    border-radius: 6px !important;
+    background-color: #7554a0 !important;
+    position: relative;
+    bottom: 1px;
+  }
