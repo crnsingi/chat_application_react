@@ -1,3 +1,4 @@
+/* Chat Styles */
 * {
     font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
       Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
@@ -21,4 +22,8 @@
 
   .ce-chat-subtitle-text {
     color: #595959 !important;
+  }
+
+  .ce-chat-form-container {
+    padding-bottom: 20px !important;
   }
