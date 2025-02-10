@@ -7,10 +7,7 @@ const App = () => {
             height="100vh"
             projectID=""
             userName=""
-
-        
-        
-
+            userSecret= ""
         />
 
     )
