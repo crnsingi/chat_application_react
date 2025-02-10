@@ -137,4 +137,9 @@
     min-height: 100px;
     min-width: 100px;
   }
+
+  .read-receipts {
+    position: relative;
+    bottom: 6px;
+  }
   
