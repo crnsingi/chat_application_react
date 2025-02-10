@@ -161,5 +161,12 @@
     background-color: rgb(240, 240, 240);
   }
 
+  .message-form {
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid #3b2a50;
+    background-color: white;
+  }
+
   
   
