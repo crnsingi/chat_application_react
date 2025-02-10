@@ -198,3 +198,8 @@
     transform: rotate(-90deg);
   }
   
+  .picture-icon {
+    top: 1px;
+    position: relative;
+    font-size: 14px;
+  }
