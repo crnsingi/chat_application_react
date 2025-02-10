@@ -96,3 +96,9 @@
     padding-top: 4px;
   }
   
+  .message-row {
+    float: left;
+    width: 100%;
+    display: flex;
+    margin-left: 18px;
+  }
