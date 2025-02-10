@@ -76,3 +76,9 @@
     overflow: scroll;
     background-color: rgb(240, 240, 240);
   }
+
+  .chat-title-container {
+    width: calc(100% - 36px);
+    padding: 18px;
+    text-align: center;
+  }
