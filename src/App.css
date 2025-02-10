@@ -67,3 +67,12 @@
   .ce-chat-avatars-row {
     display: none !important;
   }
+
+  /*custom Feed */
+
+  .chat-feed {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-color: rgb(240, 240, 240);
+  }
