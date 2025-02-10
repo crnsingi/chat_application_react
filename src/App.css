@@ -102,3 +102,8 @@
     display: flex;
     margin-left: 18px;
   }
+
+  .message-block {
+    width: 100%;
+    display: inline-block;
+  }
