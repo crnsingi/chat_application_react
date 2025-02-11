@@ -8,6 +8,7 @@ const App = () => {
             projectID={projectID}
             userName={localStorage.getItem('username')}
             userSecret= {localStorage.getItem('password')}
+            renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
         />
     );
 }
