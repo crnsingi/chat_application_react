@@ -5,12 +5,11 @@ const App = () => {
     return (
         <ChatEngine 
             height="100vh"
-            projectID=""
-            userName=""
-            userSecret= ""
+            projectID={projectID}
+            userName={localStorage.getItem('username')}
+            userSecret= {localStorage.getItem('password')}
         />
-
-    )
+    );
 }
 
 export default App;
