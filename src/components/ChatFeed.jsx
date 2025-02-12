@@ -22,6 +22,7 @@ const ChatFeed = (props) => {
 
                         isMyMessage
                         ? <MyMessage />
+                        : <TheirMessage />
                     }
 
                 </div>
