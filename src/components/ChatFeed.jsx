@@ -12,6 +12,8 @@ const ChatFeed = (props) => {
 
     console.log(keys);
 
+    renderMessages();
+
     
 
    }
