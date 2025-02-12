@@ -1,3 +1,5 @@
+import MessageForm from "./MessageForm";
+
 const ChatFeed = (props) => {
     console.log(props);
 
