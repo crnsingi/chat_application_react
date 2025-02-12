@@ -6,3 +6,5 @@ const TheirMessage = () => {
     );
 
 }
+
+export default TheirMessage;
