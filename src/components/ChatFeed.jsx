@@ -10,11 +10,12 @@ const ChatFeed = (props) => {
    const renderMessages = () => {
     const keys = Object.keys(messages);
     
-    return keys.map(() => {
-        
-    })
+    return keys.map((key, index) => {
 
+    })
    }
+
+   renderMessages()
 
     return ( 
         <div>
