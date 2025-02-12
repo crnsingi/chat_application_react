@@ -5,3 +5,5 @@ const MyMessage = () => {
         </div>
     );
 }
+
+export default MyMessage;
