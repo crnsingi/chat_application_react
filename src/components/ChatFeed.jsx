@@ -10,6 +10,8 @@ const ChatFeed = (props) => {
    const renderMessages = () => {
     const keys = Object.keys(messages);
 
+    console.log(keys);
+
     
 
    }
