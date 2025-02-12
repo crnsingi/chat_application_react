@@ -1,12 +1,12 @@
 const ChatFeed = (props) => {
     console.log(props);
 
-}
-   return ( 
-    <div>
-        ChatFeed
-    </div>
-   )
+    return ( 
+        <div>
+            ChatFeed
+        </div>
+    );
+};
 
  
 
