@@ -7,6 +7,8 @@ const ChatFeed = (props) => {
 
     const chat = chats && chats[activeChat];
 
+    console.log(chat, userName, messages);
+
     return ( 
         <div>
             ChatFeed
