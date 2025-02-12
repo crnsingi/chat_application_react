@@ -16,7 +16,7 @@ const ChatFeed = (props) => {
         const isMyMessage = userName === message.sender.username;
 
         return (
-            <div key={`msg_${index}`}>
+            <div key={`msg_${index}`} style={{ width: '100%'}}>
 
             </div>
 
