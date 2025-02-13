@@ -39,6 +39,7 @@ const ChatFeed = (props) => {
 
     return ( 
         <div className="chat-feed">
+            <div className="chat-title-container"></div>
             ChatFeed
         </div>
     );
