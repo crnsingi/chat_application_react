@@ -49,6 +49,7 @@ const ChatFeed = (props) => {
             </div>
             </div>
             {renderMessages()}
+            <div style={{ height: '100px' }}>
         </div>
     );
 };
