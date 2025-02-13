@@ -26,7 +26,7 @@ const ChatFeed = (props) => {
                     }
                 </div>
                 <div className="read-receipts" style={{ marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '0px' : '68px'}}>
-                    
+                    read-receipts
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ const ChatFeed = (props) => {
    renderMessages()
 
     return ( 
-        <div>
+        <div className="chat-feed">
             ChatFeed
         </div>
     );
