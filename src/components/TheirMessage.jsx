@@ -1,4 +1,5 @@
-const TheirMessage = () => {
+const TheirMessage = ({ lastMessage, message}) => {
+    const isFirstMessageByUser = ! lastMessage
     return (
         <div>
             TheirMessage
