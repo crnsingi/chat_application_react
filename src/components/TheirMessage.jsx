@@ -1,7 +1,7 @@
 const TheirMessage = ({ lastMessage, message}) => {
     const isFirstMessageByUser = ! lastMessage || lastMessage.sender.username  !== message.sender.username;
     return (
-        <div>
+        <div className="message-row">
             TheirMessage
         </div>
     );
