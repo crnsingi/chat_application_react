@@ -15,14 +15,16 @@ const MessageForm = (props) => {
 
         setValue('');
 
-
     }
-
 
     const handleChange = (event) => {
         setValue(event.target.value);
 
         isTyping(props, chatId);
+    }
+
+    const handleUpload = (event) => {
+        
     }
 
      
@@ -40,6 +42,14 @@ const MessageForm = (props) => {
                     <PictureOutlined className="picture-icon"/>
                 </span>
             </label>
+            <input 
+            type="file"
+            multiple={false}
+            id="upload-button"
+            style={{display:'none'}}
+            onChange={handleUpload}
+            />
+
         </form>
     );
 }
