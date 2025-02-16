@@ -7,8 +7,8 @@ const ChatFeed = (props) => {
 
     const chat = chats && chats[activeChat];
 
-    const renderReadReceipts = () => {
-        
+    const renderReadReceipts = (message, isMyMessage) => {
+        chat.people.map((person, index) => person.last_read)
     }
 
    const renderMessages = () => {
