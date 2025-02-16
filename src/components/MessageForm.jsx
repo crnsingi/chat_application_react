@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { sendMessage, isTyping } from 'react-chat-engine';
 
 const MessageForm = () => { 
 
@@ -11,6 +12,8 @@ const MessageForm = () => {
 
     const handleChange = (event) => {
         setValue(event.target.value);
+
+        isTyping(props, chatId);
     }
 
      
