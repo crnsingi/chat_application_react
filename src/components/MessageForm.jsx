@@ -34,8 +34,8 @@ const MessageForm = (props) => {
               onChange={handleChange}
               onSubmit={handleSubmit}
             />
-            <label htmlFor='upload-button'>
-
+            <label htmlFor="upload-button">
+                <span className="image-button"></span>
             </label>
         </form>
     );
