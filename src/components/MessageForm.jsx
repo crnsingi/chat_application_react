@@ -3,6 +3,11 @@ const MessageForm = () => {
 
     }
 
+
+    const handleChange = () => {
+
+    }
+
      
     return (
         <form className="message-form" onSubmit={handleSubmit}>
