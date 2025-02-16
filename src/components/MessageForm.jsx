@@ -24,7 +24,7 @@ const MessageForm = (props) => {
     }
 
     const handleUpload = (event) => {
-        
+        sendMessage()
     }
 
      
