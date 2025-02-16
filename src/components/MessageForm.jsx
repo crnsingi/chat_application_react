@@ -3,14 +3,14 @@ import { useState } from 'react';
 const MessageForm = () => { 
 
     const [value, setValue] = useState('');
-    
+
     const handleSubmit = () => {
 
     }
 
 
-    const handleChange = () => {
-
+    const handleChange = (event) => {
+        setValue(event.target.value);
     }
 
      
@@ -21,6 +21,7 @@ const MessageForm = () => {
               placeholder="Send a message..."
               value={value}
               onChange={handleChange}
+              onSubmit={handleSubmit}
             />
         </form>
     );
