@@ -13,6 +13,15 @@ const Modal = () => {
 
         const authObject = { 'Project-ID': projectID, 'User-Name': username, 'User-Secret': password };
 
+        try {
+            await axios.get('https://api.chatengine.io/chats', { headers: authObject });
+      
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+      
+            window.location.reload();
+            setError('');
+
 
 
 const LoginForm = () => {
