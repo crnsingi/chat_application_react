@@ -23,10 +23,10 @@ const Modal = () => {
             setError('');
 
 
-
-const LoginForm = () => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+        } catch (err) {
+            setError('Oops, incorrect credentials.');
+          }
+        };
 
     return ( 
         <div className="wrapper">
