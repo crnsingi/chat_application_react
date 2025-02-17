@@ -11,6 +11,8 @@ const Modal = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const authObject = { 'Project-ID': projectID, 'User-Name': username, 'User-Secret': password };
+
 
 
 const LoginForm = () => {
